@@ -40,8 +40,8 @@ corpus of data
 Application
 ========================================================
 ![text input](textinput.png)
-The application predicts the next word by using an n-gram backoff technique. It starts off by 
-searching for words entered in the text input in the 4-gram model so as to get the next word, failing which it searches the trigram model and the bigram model for the next word. 
+The user needs to enter in text in the text input field and click on Submit. The application then predicts the next word by using an n-gram backoff technique. It starts off by 
+searching for the entered words in the 4-gram model, failing which it searches the trigram model and the bigram model to get the next word. 
 
 Conclusion
 ========================================================
