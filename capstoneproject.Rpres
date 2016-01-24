@@ -41,8 +41,7 @@ Application
 ========================================================
 ![text input](textinput.png)
 The application predicts the next word by using an n-gram backoff technique. It starts off by 
-searching the 4-gram model for the next word, failing which it searches the trigram model and the
-bigram model for the next word. 
+searching for words entered in the text input in the 4-gram model so as to get the next word, failing which it searches the trigram model and the bigram model for the next word. 
 
 Conclusion
 ========================================================
