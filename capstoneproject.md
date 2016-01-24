@@ -39,9 +39,7 @@ corpus of data
 
 Application
 ========================================================
-
-![text input](C:\\Users\\Joel\\Desktop\\MOOC Course\\capstoneprojectdata\\textinput.png)
-
+![text input](textinput.png)
 The application predicts the next word by using an n-gram backoff technique. It starts off by 
 searching the 4-gram model for the next word, failing which it searches the trigram model and the
 bigram model for the next word. 
